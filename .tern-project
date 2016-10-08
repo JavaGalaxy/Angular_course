@@ -1,0 +1,19 @@
+{
+  "ecmaVersion": 6,
+  "libs": [],
+  "plugins": {
+    "angular": {},
+    "complete_Strings": {
+      "maxLength": 15
+    },
+    "node": {
+      "dontLoad": "",
+      "load": "",
+      "modules": ""
+    },
+    "doc_comment": {
+      "fullDocs": true,
+      "strong": true
+    }
+  }
+}
