@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myFirstApp">
   <head>
     <meta charset="utf-8">
     <title>Hello Angular</title>
+    <script src="angular.js"></script>
+    <script src="app.js"></script>
   </head>
   <body>
-    <h1>Hello AngularJS from Atom</h1>
+    <div ng-controller="myFirstController">
+        <h1> Controller binds the the view HTML to app.js</h1>
+    </div>
   </body>
 </html>
